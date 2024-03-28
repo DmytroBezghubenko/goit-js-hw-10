@@ -1,7 +1,38 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
 @import url('./reset.css');
+
+.icon-person:before {
+  font-family: 'Material Symbols Outlined', sans-serif;
+  content: "\e888";
+}
+
+.iziToast-body i {
+  font-style: normal;
+}
+
+.iziToast-capsule>.iziToast>.iziToast-body .iziToast-icon {
+  color: #a01e1e;
+  font-size: 50px;
+}
+
+.iziToast-capsule>.iziToast>.iziToast-body .iziToast-texts {
+  margin: 10px 0 0 30px;
+}
+
+.timer {
+  display: flex;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.value {
+  font-size: 30px;
+}
+
+.label {
+  font-size: 18px;
+}
