@@ -36,3 +36,32 @@
 .label {
   font-size: 18px;
 }
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset {
+  width: 180px;
+  margin-bottom: 15px;
+}
+
+input[type="number"] {
+  width: 200px;
+  margin-bottom: 15px;
+}
+
+.form>label {
+  display: flex;
+  flex-direction: column;
+}
+
+.form>button {
+  width: 210px;
+  height: 30px;
+}
+
+.iziToast-capsule>.iziText>.iziToast-body .iziToast-texts {
+  margin: 10px 0 0 0px;
+}
